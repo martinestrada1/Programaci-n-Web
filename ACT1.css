@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cuadro-rojo {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro-azul {
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo-verde {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
